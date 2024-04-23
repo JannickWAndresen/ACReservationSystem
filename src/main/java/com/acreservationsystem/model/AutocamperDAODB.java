@@ -15,9 +15,8 @@ public class AutocamperDAODB implements AutocamperDAO {
     private static Properties properties = new Properties();
     Connection con;
 
+    //Constructor for setting properties for connection to database.
     public AutocamperDAODB() throws SQLException {
-        //Set connectionString
-        //connection to DB
         properties.setProperty("user", userName);
         properties.setProperty("password", password);
         properties.setProperty("encrypt", "false");

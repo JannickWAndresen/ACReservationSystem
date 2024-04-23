@@ -1,4 +1,4 @@
-package src.main.java.com.acreservationsystem.model;
+package com.acreservationsystem.model;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,4 +1,4 @@
-package com.example.acreservationsystem;
+package com.acreservationsystem.view;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

@@ -1,4 +1,4 @@
-module com.example.acreservationsystem {
+module com.acreservationsystem {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -6,6 +6,6 @@ module com.example.acreservationsystem {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.example.acreservationsystem to javafx.fxml;
-    exports com.example.acreservationsystem;
+    opens com.acreservationsystem.view to javafx.fxml;
+    exports com.acreservationsystem.view;
 }

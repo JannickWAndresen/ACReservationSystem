@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Properties;
 
 public class AutocamperDAODB implements AutocamperDAO {
-    private static final String dbName = "dbProduct";
+    private static final String dbName = "dbAutocampingWagner";
     private static final String userName = "sa";
     private static final String password = "1234";
     private static final String port = "1433";

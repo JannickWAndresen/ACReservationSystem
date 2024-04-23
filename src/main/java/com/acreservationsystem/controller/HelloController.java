@@ -1,4 +1,4 @@
-package com.example.acreservationsystem;
+package com.acreservationsystem.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

@@ -6,6 +6,7 @@ module com.acreservationsystem {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
     requires java.sql;
+    requires jdk.unsupported.desktop;
 
     opens com.acreservationsystem.view to javafx.fxml;
     opens com.acreservationsystem.controller to javafx.fxml;

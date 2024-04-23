@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2030345-abde-4c8f-af1b-cfd204fca1bd" name="Changes" comment="tried to fix">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" afterDir="false" />
+    <list default="true" id="a2030345-abde-4c8f-af1b-cfd204fca1bd" name="Changes" comment="fixed loading of fxml files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAODB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAODB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/view/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/view/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +92,7 @@
       <workItem from="1713857112263" duration="1000" />
       <workItem from="1713863191208" duration="88000" />
       <workItem from="1713863300097" duration="170000" />
-      <workItem from="1713863483138" duration="5555000" />
+      <workItem from="1713863483138" duration="7900000" />
     </task>
     <task id="LOCAL-00001" summary="tried to fix">
       <option name="closed" value="true" />
@@ -106,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713863774518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed loading of fxml files">
+      <option name="closed" value="true" />
+      <created>1713872222444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713872222444</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tried to fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="tried to fix" />
+    <MESSAGE value="fixed loading of fxml files" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed loading of fxml files" />
   </component>
 </project>

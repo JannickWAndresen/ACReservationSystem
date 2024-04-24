@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.StackPane?>
@@ -25,20 +26,32 @@
             <ImageView fx:id="image3" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </StackPane>
-      <StackPane fx:id="stackPane4" alignment="TOP_LEFT" layoutY="164.0" prefHeight="150.0" prefWidth="200.0">
+      <StackPane fx:id="stackPane4" alignment="TOP_LEFT" layoutY="204.0" prefHeight="150.0" prefWidth="200.0">
          <children>
             <ImageView fx:id="image4" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </StackPane>
-      <StackPane fx:id="stackPane5" alignment="TOP_LEFT" layoutX="200.0" layoutY="164.0" prefHeight="150.0" prefWidth="200.0">
+      <StackPane fx:id="stackPane5" alignment="TOP_LEFT" layoutX="200.0" layoutY="204.0" prefHeight="150.0" prefWidth="200.0">
          <children>
             <ImageView fx:id="image5" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </StackPane>
-      <StackPane fx:id="stackPane6" alignment="TOP_LEFT" layoutX="400.0" layoutY="164.0" prefHeight="150.0" prefWidth="200.0">
+      <StackPane fx:id="stackPane6" alignment="TOP_LEFT" layoutX="400.0" layoutY="204.0" prefHeight="150.0" prefWidth="200.0">
          <children>
             <ImageView fx:id="image6" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </StackPane>
+      <Label layoutY="164.0" text="Type: Luxery" />
+      <Label layoutY="182.0" text="Size: 4 pers." />
+      <Label layoutX="200.0" layoutY="164.0" text="Type: Luxery" />
+      <Label layoutX="200.0" layoutY="182.0" text="Size: 4 pers." />
+      <Label layoutX="400.0" layoutY="164.0" text="Type: Luxery" />
+      <Label layoutX="400.0" layoutY="182.0" text="Size: 4 pers." />
+      <Label layoutY="354.0" text="Type: Luxery" />
+      <Label layoutY="372.0" text="Size: 4 pers." />
+      <Label layoutX="200.0" layoutY="354.0" text="Type: Luxery" />
+      <Label layoutX="200.0" layoutY="372.0" text="Size: 4 pers." />
+      <Label layoutX="400.0" layoutY="354.0" text="Type: Luxery" />
+      <Label layoutX="400.0" layoutY="372.0" text="Size: 4 pers." />
    </children>
 </AnchorPane>

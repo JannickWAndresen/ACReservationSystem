@@ -171,12 +171,14 @@ public class AutocampersController {
         });
     }
 
+
     public void loadView(String fxmlFile) {
         try {
             loader = new FXMLLoader(getClass().getResource(fxmlFile));
-            scene = new Scene(loader.load(), 600, 500);
+            scene = new Scene(loader.load(), 494, 433);
 
-            Stage newStage = (Stage) stackPane.getScene().getWindow();
+            //Stage newStage = (Stage) stackPane.getScene().getWindow();
+            Stage newStage = new Stage();
             newStage.setScene(scene);
             newStage.show();
 

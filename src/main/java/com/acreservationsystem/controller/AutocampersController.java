@@ -46,9 +46,6 @@ public class AutocampersController {
     Scene scene;
     @FXML
     Stage stage;
-    @FXML
-    Stage newstage;
-
 
 
     private final Image image = new Image("/Images/autoCamperAvailable.png");
@@ -81,6 +78,7 @@ public class AutocampersController {
         stackPane.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image1);
             scaleTransition.play();
+            closeOldView();
             loadView("/fxml/ReservationForm-View.fxml");
 
 
@@ -172,17 +170,23 @@ public class AutocampersController {
             }
         });
     }
+
     public void loadView(String fxmlFile) {
-        // TODO: make it close the old window so it doesn't appear as a pop-up.
         try {
             loader = new FXMLLoader(getClass().getResource(fxmlFile));
             scene = new Scene(loader.load(), 600, 500);
-            stage = new Stage();
-            stage.setScene(scene);
-            stage.show();
+
+            Stage newStage = (Stage) stackPane.getScene().getWindow();
+            newStage.setScene(scene);
+            newStage.show();
 
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+    public void closeOldView(){
+        if(stage != null){
+            stage.close();
         }
     }
 

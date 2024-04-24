@@ -2,9 +2,13 @@ package com.acreservationsystem.controller;
 
 import javafx.animation.ScaleTransition;
 import javafx.fxml.FXML;
+import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.StackPane;
 import javafx.util.Duration;
+
+import java.util.Stack;
 
 public class AutocampersController {
 
@@ -20,6 +24,8 @@ public class AutocampersController {
     private ImageView image5;
     @FXML
     private ImageView image6;
+    @FXML
+    private StackPane stackPane;
 
     private final Image image = new Image("/images/school-bus.png");
     private final Image imageBleh = new Image("/images/HiThere.png");
@@ -27,6 +33,7 @@ public class AutocampersController {
     @FXML
     public void initialize() {
         image1.setImage(image);
+        image1.setPreserveRatio(true);
         image2.setImage(image);
         image3.setImage(image);
         image4.setImage(image);
@@ -42,11 +49,11 @@ public class AutocampersController {
         scaleTransition.setAutoReverse(true);
         scaleTransition.setCycleCount(2);
 
-        image1.setOnMouseClicked(mouseEvent -> {
+        stackPane.setOnMouseClicked(mouseEvent -> {
             scaleTransition.play();
         });
 
-        image1.hoverProperty().addListener((observable, oldValue, newValue) -> {
+        stackPane.hoverProperty().addListener((observable, oldValue, newValue) -> {
             System.out.println(newValue);
             if (newValue) {
                 image1.setImage(imageBleh);

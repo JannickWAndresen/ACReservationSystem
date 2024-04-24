@@ -38,8 +38,8 @@ public class AutocampersController {
     private StackPane stackPane6;
 
 
-    private final Image image = new Image("/images/AutoCamperAvailable.png");
-    private final Image imageBleh = new Image("/images/HiThere.png");
+    private final Image image = new Image("C:\\Java\\ACReservationSystem\\src\\main\\resources\\images\\AutoCamperAvailable.png");
+    private final Image imageBleh = new Image("C:\\Java\\ACReservationSystem\\src\\main\\resources\\images\\HiThere.PNG");
 
     @FXML
     public void initialize() {

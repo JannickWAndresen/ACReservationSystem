@@ -1,16 +1,10 @@
 package com.acreservationsystem.controller;
 
 import javafx.animation.ScaleTransition;
-import javafx.application.Application;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.util.Duration;
-import jdk.swing.interop.SwingInterOpUtils;
-
-import java.util.Timer;
-import java.util.concurrent.Delayed;
 
 public class AutocampersController {
 

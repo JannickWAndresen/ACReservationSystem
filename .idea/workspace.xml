@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2030345-abde-4c8f-af1b-cfd204fca1bd" name="Changes" comment="Added pane wrappers to all imageviews">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a2030345-abde-4c8f-af1b-cfd204fca1bd" name="Changes" comment="added onHover to all stackpanes">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/information-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -95,7 +94,7 @@
       <workItem from="1713857112263" duration="1000" />
       <workItem from="1713863191208" duration="88000" />
       <workItem from="1713863300097" duration="170000" />
-      <workItem from="1713863483138" duration="16370000" />
+      <workItem from="1713863483138" duration="18840000" />
     </task>
     <task id="LOCAL-00001" summary="tried to fix">
       <option name="closed" value="true" />
@@ -161,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713947302842</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added onHover to all stackpanes">
+      <option name="closed" value="true" />
+      <created>1713948392496</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713948392496</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +194,7 @@
     <MESSAGE value="cleaned imports" />
     <MESSAGE value="fixed image flickering by wrapping image view in a stackpane" />
     <MESSAGE value="Added pane wrappers to all imageviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added pane wrappers to all imageviews" />
+    <MESSAGE value="added onHover to all stackpanes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added onHover to all stackpanes" />
   </component>
 </project>

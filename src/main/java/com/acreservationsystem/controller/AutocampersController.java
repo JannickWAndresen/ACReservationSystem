@@ -21,8 +21,8 @@ public class AutocampersController {
     @FXML
     private ImageView image6;
 
-    private final Image image = new Image("C:\\Users\\mikae\\Downloads\\school-bus.png");
-    private final Image imageBleh = new Image("C:\\Users\\mikae\\Downloads\\bleh.png");
+    private final Image image = new Image("/images/school-bus.png");
+    private final Image imageBleh = new Image("/images/HiThere.png");
 
     @FXML
     public void initialize() {

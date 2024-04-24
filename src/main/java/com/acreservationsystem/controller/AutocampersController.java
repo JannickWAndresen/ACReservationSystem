@@ -26,6 +26,17 @@ public class AutocampersController {
     private ImageView image6;
     @FXML
     private StackPane stackPane;
+    @FXML
+    private StackPane stackPane2;
+    @FXML
+    private StackPane stackPane3;
+    @FXML
+    private StackPane stackPane4;
+    @FXML
+    private StackPane stackPane5;
+    @FXML
+    private StackPane stackPane6;
+
 
     private final Image image = new Image("/images/AutoCamperAvailable.png");
     private final Image imageBleh = new Image("/images/HiThere.png");
@@ -35,14 +46,18 @@ public class AutocampersController {
         image1.setImage(image);
         image1.setPreserveRatio(true);
         image2.setImage(image);
+        image2.setPreserveRatio(true);
         image3.setImage(image);
+        image3.setPreserveRatio(true);
         image4.setImage(image);
+        image4.setPreserveRatio(true);
         image5.setImage(image);
+        image5.setPreserveRatio(true);
         image6.setImage(image);
+        image6.setPreserveRatio(true);
 
         ScaleTransition scaleTransition = new ScaleTransition();
-        scaleTransition.setNode(image1);
-
+        //scaleTransition.setNode(image1);
         scaleTransition.setDuration(Duration.millis(30));
         scaleTransition.setByX(-0.1);
         scaleTransition.setByY(-0.1);
@@ -50,6 +65,32 @@ public class AutocampersController {
         scaleTransition.setCycleCount(2);
 
         stackPane.setOnMouseClicked(mouseEvent -> {
+            scaleTransition.setNode(image1);
+            scaleTransition.play();
+        });
+
+        stackPane2.setOnMouseClicked(mouseEvent -> {
+            scaleTransition.setNode(image2);
+            scaleTransition.play();
+        });
+
+        stackPane3.setOnMouseClicked(mouseEvent -> {
+            scaleTransition.setNode(image3);
+            scaleTransition.play();
+        });
+
+        stackPane4.setOnMouseClicked(mouseEvent -> {
+            scaleTransition.setNode(image4);
+            scaleTransition.play();
+        });
+
+        stackPane5.setOnMouseClicked(mouseEvent -> {
+            scaleTransition.setNode(image5);
+            scaleTransition.play();
+        });
+
+        stackPane6.setOnMouseClicked(mouseEvent -> {
+            scaleTransition.setNode(image6);
             scaleTransition.play();
         });
 

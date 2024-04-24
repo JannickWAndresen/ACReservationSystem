@@ -2,12 +2,16 @@ package com.acreservationsystem.controller;
 
 import javafx.animation.ScaleTransition;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
 import javafx.util.Duration;
 
+import java.io.IOException;
 import java.util.Stack;
 
 public class AutocampersController {
@@ -36,10 +40,20 @@ public class AutocampersController {
     private StackPane stackPane5;
     @FXML
     private StackPane stackPane6;
+    @FXML
+    FXMLLoader loader;
+    @FXML
+    Scene scene;
+    @FXML
+    Stage stage;
+    @FXML
+    Stage newstage;
 
 
-    private final Image image = new Image("C:\\Java\\ACReservationSystem\\src\\main\\resources\\images\\AutoCamperAvailable.png");
-    private final Image imageBleh = new Image("C:\\Java\\ACReservationSystem\\src\\main\\resources\\images\\HiThere.PNG");
+
+    private final Image image = new Image("/Images/autoCamperAvailable.png");
+    private final Image imageBleh = new Image("/Images/HiThere.png");
+
 
     @FXML
     public void initialize() {
@@ -67,31 +81,40 @@ public class AutocampersController {
         stackPane.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image1);
             scaleTransition.play();
+            loadView("/fxml/ReservationForm-View.fxml");
+
+
         });
 
         stackPane2.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image2);
             scaleTransition.play();
+            loadView("/fxml/ReservationForm-View.fxml");
         });
 
         stackPane3.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image3);
             scaleTransition.play();
+            loadView("/fxml/ReservationForm-View.fxml");
         });
 
         stackPane4.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image4);
             scaleTransition.play();
+            loadView("/fxml/ReservationForm-View.fxml");
         });
 
         stackPane5.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image5);
             scaleTransition.play();
+            loadView("/fxml/ReservationForm-View.fxml");
         });
 
         stackPane6.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image6);
             scaleTransition.play();
+            loadView("/fxml/ReservationForm-View.fxml");
+
         });
 
         stackPane.hoverProperty().addListener((observable, oldValue, newValue) -> {
@@ -102,6 +125,7 @@ public class AutocampersController {
                 image1.setImage(image);
             }
         });
+
 
         stackPane2.hoverProperty().addListener((observable, oldValue, newValue) -> {
             System.out.println(newValue);
@@ -148,4 +172,18 @@ public class AutocampersController {
             }
         });
     }
+    public void loadView(String fxmlFile) {
+        // TODO: make it close the old window so it doesn't appear as a pop-up.
+        try {
+            loader = new FXMLLoader(getClass().getResource(fxmlFile));
+            scene = new Scene(loader.load(), 600, 500);
+            stage = new Stage();
+            stage.setScene(scene);
+            stage.show();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

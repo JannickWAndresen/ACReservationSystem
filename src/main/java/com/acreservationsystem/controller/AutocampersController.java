@@ -102,5 +102,50 @@ public class AutocampersController {
                 image1.setImage(image);
             }
         });
+
+        stackPane2.hoverProperty().addListener((observable, oldValue, newValue) -> {
+            System.out.println(newValue);
+            if (newValue) {
+                image2.setImage(imageBleh);
+            }else {
+                image2.setImage(image);
+            }
+        });
+
+        stackPane3.hoverProperty().addListener((observable, oldValue, newValue) -> {
+            System.out.println(newValue);
+            if (newValue) {
+                image3.setImage(imageBleh);
+            }else {
+                image3.setImage(image);
+            }
+        });
+
+        stackPane4.hoverProperty().addListener((observable, oldValue, newValue) -> {
+            System.out.println(newValue);
+            if (newValue) {
+                image4.setImage(imageBleh);
+            }else {
+                image4.setImage(image);
+            }
+        });
+
+        stackPane5.hoverProperty().addListener((observable, oldValue, newValue) -> {
+            System.out.println(newValue);
+            if (newValue) {
+                image5.setImage(imageBleh);
+            }else {
+                image5.setImage(image);
+            }
+        });
+
+        stackPane6.hoverProperty().addListener((observable, oldValue, newValue) -> {
+            System.out.println(newValue);
+            if (newValue) {
+                image6.setImage(imageBleh);
+            }else {
+                image6.setImage(image);
+            }
+        });
     }
 }

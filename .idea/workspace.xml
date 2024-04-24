@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2030345-abde-4c8f-af1b-cfd204fca1bd" name="Changes" comment="fixed loading of fxml files">
+    <list default="true" id="a2030345-abde-4c8f-af1b-cfd204fca1bd" name="Changes" comment="small animation for the autocamper button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/view/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/view/HelloApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ACReservationSystem.executor": "Run",
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -73,6 +74,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="ACReservationSystem" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.acreservationsystem.view.HelloApplication" />
+      <module name="ACReservationSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,7 +102,7 @@
       <workItem from="1713857112263" duration="1000" />
       <workItem from="1713863191208" duration="88000" />
       <workItem from="1713863300097" duration="170000" />
-      <workItem from="1713863483138" duration="7900000" />
+      <workItem from="1713863483138" duration="10096000" />
     </task>
     <task id="LOCAL-00001" summary="tried to fix">
       <option name="closed" value="true" />
@@ -110,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713872222444</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="small animation for the autocamper button">
+      <option name="closed" value="true" />
+      <created>1713875017546</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713875017546</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +148,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tried to fix" />
     <MESSAGE value="fixed loading of fxml files" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed loading of fxml files" />
+    <MESSAGE value="small animation for the autocamper button" />
+    <option name="LAST_COMMIT_MESSAGE" value="small animation for the autocamper button" />
   </component>
 </project>

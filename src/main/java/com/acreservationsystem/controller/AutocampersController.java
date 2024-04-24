@@ -27,7 +27,7 @@ public class AutocampersController {
     @FXML
     private StackPane stackPane;
 
-    private final Image image = new Image("/images/school-bus.png");
+    private final Image image = new Image("/images/AutoCamperAvailable.png");
     private final Image imageBleh = new Image("/images/HiThere.png");
 
     @FXML

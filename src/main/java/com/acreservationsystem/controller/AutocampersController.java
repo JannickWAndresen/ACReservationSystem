@@ -1,5 +1,6 @@
 package com.acreservationsystem.controller;
 
+import com.acreservationsystem.model.Loader;
 import javafx.animation.ScaleTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -79,7 +80,7 @@ public class AutocampersController {
             scaleTransition.setNode(image1);
             scaleTransition.play();
             closeOldView();
-            loadView("/fxml/ReservationForm-View.fxml");
+            Loader.getInstance().switchView("/fxml/ReservationForm-View.fxml");
 
 
         });
@@ -87,31 +88,31 @@ public class AutocampersController {
         stackPane2.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image2);
             scaleTransition.play();
-            loadView("/fxml/ReservationForm-View.fxml");
+            Loader.getInstance().switchView("/fxml/ReservationForm-View.fxml");
         });
 
         stackPane3.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image3);
             scaleTransition.play();
-            loadView("/fxml/ReservationForm-View.fxml");
+            Loader.getInstance().switchView("/fxml/ReservationForm-View.fxml");
         });
 
         stackPane4.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image4);
             scaleTransition.play();
-            loadView("/fxml/ReservationForm-View.fxml");
+            Loader.getInstance().switchView("/fxml/ReservationForm-View.fxml");
         });
 
         stackPane5.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image5);
             scaleTransition.play();
-            loadView("/fxml/ReservationForm-View.fxml");
+            Loader.getInstance().switchView("/fxml/ReservationForm-View.fxml");
         });
 
         stackPane6.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image6);
             scaleTransition.play();
-            loadView("/fxml/ReservationForm-View.fxml");
+            Loader.getInstance().switchView("/fxml/ReservationForm-View.fxml");
 
         });
 
@@ -171,21 +172,6 @@ public class AutocampersController {
         });
     }
 
-
-    public void loadView(String fxmlFile) {
-        try {
-            loader = new FXMLLoader(getClass().getResource(fxmlFile));
-            scene = new Scene(loader.load(), 494, 433);
-
-            //Stage newStage = (Stage) stackPane.getScene().getWindow();
-            Stage newStage = new Stage();
-            newStage.setScene(scene);
-            newStage.show();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
     public void closeOldView(){
         if(stage != null){
             stage.close();

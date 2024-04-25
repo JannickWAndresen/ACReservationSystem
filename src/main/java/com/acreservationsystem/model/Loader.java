@@ -25,7 +25,7 @@ public class Loader {
     }
     public void setStage(Stage stage) throws IOException {
         this.stage = stage;
-        switchView("/fxml/autocampers-view.fxml");
+        switchView("/fxml/autocampers-view.fxml",600,500);
     }
     public void switchView(String fxmlFile, Stage tempStage) {
         try {
@@ -38,10 +38,10 @@ public class Loader {
             e.printStackTrace();
         }
     }
-    public void switchView(String fxmlFile) {
+    public void switchView(String fxmlFile, int width, int height) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(fxmlFile));
-            Scene scene = new Scene(fxmlLoader.load(), 600, 500);
+            Scene scene = new Scene(fxmlLoader.load(), width, height);
             stage.setTitle("Hello!");
             stage.setScene(scene);
             stage.show();

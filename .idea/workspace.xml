@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2030345-abde-4c8f-af1b-cfd204fca1bd" name="Changes" comment="Added labels + create/switch window.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/ConfirmedBookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/confirmBookingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/Loader.java" afterDir="false" />
+    <list default="true" id="a2030345-abde-4c8f-af1b-cfd204fca1bd" name="Changes" comment="Added singleton class. Added popups &amp; functional view switching.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutoCamperInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/ConfirmedBookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/ConfirmedBookingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/ReservationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/view/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/view/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/Loader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/ReservationForm-View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/ReservationForm-View.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/confirmBooking-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/confirmBooking-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/confirmedBooking-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/confirmedBooking-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/autocamperInfo-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/autocamperInfo-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,7 @@
       <workItem from="1713863191208" duration="88000" />
       <workItem from="1713863300097" duration="170000" />
       <workItem from="1713863483138" duration="18840000" />
-      <workItem from="1714028786063" duration="6738000" />
+      <workItem from="1714028786063" duration="9754000" />
     </task>
     <task id="LOCAL-00001" summary="tried to fix">
       <option name="closed" value="true" />
@@ -201,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713967697408</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added singleton class. Added popups &amp; functional view switching.">
+      <option name="closed" value="true" />
+      <created>1714035793997</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714035793997</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +237,7 @@
     <MESSAGE value="fixed relative path" />
     <MESSAGE value="Scene change now closes old window" />
     <MESSAGE value="Added labels + create/switch window." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added labels + create/switch window." />
+    <MESSAGE value="Added singleton class. Added popups &amp; functional view switching." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added singleton class. Added popups &amp; functional view switching." />
   </component>
 </project>

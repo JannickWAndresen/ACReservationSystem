@@ -20,7 +20,7 @@ public class ReservationController {
 
     @FXML
     protected void btnCancelClicked(){
-        Loader.getInstance().switchView("/fxml/autocampers-view.fxml");
+        Loader.getInstance().switchView("/fxml/autocamperInfo-view.fxml",467,686);
     }
 
 }

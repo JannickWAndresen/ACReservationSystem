@@ -80,7 +80,7 @@ public class AutocampersController {
             scaleTransition.setNode(image1);
             scaleTransition.play();
             closeOldView();
-            Loader.getInstance().switchView("/fxml/ReservationForm-View.fxml");
+            Loader.getInstance().switchView("/fxml/autocamperInfo-view.fxml",494,686);
 
 
         });
@@ -88,31 +88,31 @@ public class AutocampersController {
         stackPane2.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image2);
             scaleTransition.play();
-            Loader.getInstance().switchView("/fxml/ReservationForm-View.fxml");
+            Loader.getInstance().switchView("/fxml/autocamperInfo-view.fxml",494,686);
         });
 
         stackPane3.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image3);
             scaleTransition.play();
-            Loader.getInstance().switchView("/fxml/ReservationForm-View.fxml");
+            Loader.getInstance().switchView("/fxml/autocamperInfo-view.fxml",494,686);
         });
 
         stackPane4.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image4);
             scaleTransition.play();
-            Loader.getInstance().switchView("/fxml/ReservationForm-View.fxml");
+            Loader.getInstance().switchView("/fxml/autocamperInfo-view.fxml",494,686);
         });
 
         stackPane5.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image5);
             scaleTransition.play();
-            Loader.getInstance().switchView("/fxml/ReservationForm-View.fxml");
+            Loader.getInstance().switchView("/fxml/autocamperInfo-view.fxml",494,686);
         });
 
         stackPane6.setOnMouseClicked(mouseEvent -> {
             scaleTransition.setNode(image6);
             scaleTransition.play();
-            Loader.getInstance().switchView("/fxml/ReservationForm-View.fxml");
+            Loader.getInstance().switchView("/fxml/autocamperInfo-view.fxml",494,686);
 
         });
 

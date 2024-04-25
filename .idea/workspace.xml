@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2030345-abde-4c8f-af1b-cfd204fca1bd" name="Changes" comment="Added switch to AutocamperInfo-view">
+    <list default="true" id="a2030345-abde-4c8f-af1b-cfd204fca1bd" name="Changes" comment="added information-view.fxml">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_10_47__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_10_47__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_12_07__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_12_07__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_13_22__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_13_22__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_13_22__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_13_22__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAODB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAODB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/Autocamper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/Autocamper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/ReservationForm-View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/ReservationForm-View.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +102,7 @@
       <workItem from="1713863300097" duration="170000" />
       <workItem from="1713863483138" duration="18840000" />
       <workItem from="1714028786063" duration="11850000" />
+      <workItem from="1714046853719" duration="969000" />
     </task>
     <task id="LOCAL-00001" summary="tried to fix">
       <option name="closed" value="true" />

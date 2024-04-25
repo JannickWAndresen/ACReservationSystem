@@ -5,29 +5,43 @@ import java.util.List;
 public class Autocamper {
     private String name;
     private String brand;
-    private int plate;
+    private String plate;
     private int age;
     private int price;
     private boolean status;
     private String type;
     private String facility;
-    private int space;
+    private float space;
     private String heat;
     private int bed;
     private List<String> kitchenEquipment;
     public Autocamper(
             String name,
             String brand,
-            int plate,
+            String plate,
             int age,
             int price,
             boolean status,
             String type,
             String facility,
-            int space,
+            float space,
             String heat,
             int bed,
-            List<String> kitchenEquipment){
+            List<String> kitchenEquipment) {
+
+        setName(name);
+        setBrand(brand);
+        setPlate(plate);
+        setAge(age);
+        setPrice(price);
+        setStatus(status);
+        setType(type);
+        setFacility(facility);
+        setSpace(space);
+        setHeat(heat);
+        setBed(bed);
+        setKitchenEquipment(kitchenEquipment);
+
     }
 
     public String getName() {
@@ -46,11 +60,11 @@ public class Autocamper {
         this.brand = brand;
     }
 
-    public int getPlate() {
+    public String getPlate() {
         return plate;
     }
 
-    public void setPlate(int plate) {
+    public void setPlate(String plate) {
         this.plate = plate;
     }
 
@@ -94,11 +108,11 @@ public class Autocamper {
         this.facility = facility;
     }
 
-    public int getSpace() {
+    public float getSpace() {
         return space;
     }
 
-    public void setSpace(int space) {
+    public void setSpace(float space) {
         this.space = space;
     }
 

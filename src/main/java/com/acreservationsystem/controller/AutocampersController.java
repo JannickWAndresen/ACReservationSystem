@@ -1,5 +1,6 @@
 package com.acreservationsystem.controller;
 
+import com.acreservationsystem.model.Autocamper;
 import com.acreservationsystem.model.Loader;
 import javafx.animation.ScaleTransition;
 import javafx.fxml.FXML;
@@ -13,6 +14,8 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 public class AutocampersController {
@@ -52,9 +55,26 @@ public class AutocampersController {
     private final Image image = new Image("/Images/autoCamperAvailable.png");
     private final Image imageBleh = new Image("/Images/HiThere.png");
 
+    List<Autocamper> autocampers = new ArrayList<>();
+
 
     @FXML
     public void initialize() {
+        autocampers.add(new Autocamper(
+                "C19 Autocamper",
+                "Ford",
+                "CK867516",
+                4,
+                20000,
+                true,
+                "luxury",
+                "ABC gade, 123 abc_City",
+                10.21f,
+                "Gas heating",
+                4,
+                new ArrayList<>()
+        ));
+
         image1.setImage(image);
         image1.setPreserveRatio(true);
         image2.setImage(image);

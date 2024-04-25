@@ -1,15 +1,18 @@
 package com.acreservationsystem.model;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 
 
 public interface AutocamperDAO {
     public void rent(Autocamper ac);
-    public Autocamper read(int no);
+    public ResultSet read(int no) throws SQLException;
 
     public List<Autocamper> readAll();
 
     public void update (int no, Autocamper ac);
 
     public boolean delete (int no);
+
 
 }

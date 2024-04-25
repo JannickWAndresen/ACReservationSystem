@@ -1,5 +1,6 @@
 package com.acreservationsystem.model;
 
+import java.sql.ResultSet;
 import java.util.List;
 
 public class AutocamperDAORepository  implements AutocamperDAO{
@@ -9,7 +10,7 @@ public class AutocamperDAORepository  implements AutocamperDAO{
     }
 
     @Override
-    public Autocamper read(int no) {
+    public ResultSet read(int no) {
         return null;
     }
 

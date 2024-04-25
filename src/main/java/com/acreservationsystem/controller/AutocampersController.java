@@ -1,6 +1,8 @@
 package com.acreservationsystem.controller;
 
 import com.acreservationsystem.model.Autocamper;
+import com.acreservationsystem.model.AutocamperDAO;
+import com.acreservationsystem.model.AutocamperDAODB;
 import com.acreservationsystem.model.Loader;
 import javafx.animation.ScaleTransition;
 import javafx.fxml.FXML;
@@ -14,6 +16,8 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 
 import java.io.IOException;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -51,11 +55,16 @@ public class AutocampersController {
     @FXML
     Stage stage;
 
+    AutocamperDAO db = new AutocamperDAODB();
+
 
     private final Image image = new Image("/Images/autoCamperAvailable.png");
     private final Image imageBleh = new Image("/Images/HiThere.png");
 
     List<Autocamper> autocampers = new ArrayList<>();
+
+    public AutocampersController() throws SQLException {
+    }
 
 
     @FXML
@@ -74,6 +83,7 @@ public class AutocampersController {
                 4,
                 new ArrayList<>()
         ));
+        List<Autocamper> s = db.readAll();
 
         image1.setImage(image);
         image1.setPreserveRatio(true);

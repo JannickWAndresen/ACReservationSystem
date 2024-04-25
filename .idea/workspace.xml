@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2030345-abde-4c8f-af1b-cfd204fca1bd" name="Changes" comment="added information-view.fxml">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_10_47__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_10_47__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_12_07__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_12_07__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_13_22__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_13_22__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_13_22__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_04_2024_13_22__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutoCamperInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutoCamperInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/Autocamper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/Autocamper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAODB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAODB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAORepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAORepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/ReservationForm-View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/ReservationForm-View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/autocamperInfo-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/autocamperInfo-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

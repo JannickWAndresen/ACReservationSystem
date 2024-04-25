@@ -1,8 +1,6 @@
 package com.acreservationsystem.model;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.List;
 import java.util.Properties;
 
@@ -30,9 +28,13 @@ public class AutocamperDAODB implements AutocamperDAO {
     }
 
     @Override
-    public Autocamper read(int no) {
+    public ResultSet read(int no) throws SQLException {
+        //int ac;
+        CallableStatement c = con.prepareCall("{CALL GetACPrice(?)}");
+        c.setInt(1, no);
 
-        return null;
+
+        return c.executeQuery();
     }
 
     @Override

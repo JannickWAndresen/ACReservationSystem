@@ -26,6 +26,7 @@ public class AutocamperDAODB implements AutocamperDAO {
     @Override
     public void rent(Autocamper ac) {
 
+
     }
 
     @Override

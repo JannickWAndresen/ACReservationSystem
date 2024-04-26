@@ -33,15 +33,25 @@ public class AutoCamperInfoController {
     TextField brandTF;
     @FXML
     TextArea kitchenAreaTA;
+    @FXML
+    TextField acModelTF;
 
 
     @FXML
     VBox InfoVbox;
 
     public void initialize() throws SQLException {
-        int choice = AutocamperSingleton.getInstance().getChoice();
+        int choice = AutocamperSingleton.getInstance().getChoice()-1;
         priceTF.setText(String.valueOf(AutocamperSingleton.getInstance().getAutocamper(choice).getPrice()));
         bedAmountTF.setText(String.valueOf(AutocamperSingleton.getInstance().getAutocamper(choice).getBedAmount()));
+        autoCamperTypeTF.setText(String.valueOf(AutocamperSingleton.getInstance().getAutocamper(choice).getAcTypeID()));
+        personsTF.setText(String.valueOf(4));
+        heatTF.setText(String.valueOf(AutocamperSingleton.getInstance().getAutocamper(choice).isHeat()));
+        spaceTF.setText(String.valueOf(AutocamperSingleton.getInstance().getAutocamper(choice).getSpace()));
+        brandTF.setText(String.valueOf(AutocamperSingleton.getInstance().getAutocamper(choice).getBrand()));
+        kitchenAreaTA.setText(String.valueOf(AutocamperSingleton.getInstance().getAutocamper(choice).getKitchenEquipment()));
+        acModelTF.setText(String.valueOf(AutocamperSingleton.getInstance().getAutocamper(choice).getName()));
+
 
     }
 

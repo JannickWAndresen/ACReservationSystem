@@ -20,6 +20,11 @@ public class AutocamperDAORepository  implements AutocamperDAO{
     }
 
     @Override
+    public int readPrice(int no){
+        return 0;
+    }
+
+    @Override
     public void update(int no, Autocamper ac) {
 
     }

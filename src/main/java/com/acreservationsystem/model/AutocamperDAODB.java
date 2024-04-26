@@ -36,6 +36,13 @@ public class AutocamperDAODB implements AutocamperDAO {
 
         return c.executeQuery();
     }
+    public int readPrice(int no) throws SQLException {
+        int price;
+        CallableStatement c = con.prepareCall("{CALL GetACPrice(?)}");
+        c.setInt(1, no);
+        ResultSet s = c.executeQuery();
+        return s.getInt(1);
+    }
 
     @Override
     public ResultSet readAll() throws SQLException {

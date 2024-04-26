@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.StackPane?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.acreservationsystem.controller.AutocampersController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.acreservationsystem.controller.AutocampersController">
    <children>
       <StackPane fx:id="stackPane" alignment="TOP_LEFT" layoutY="14.0" prefHeight="150.0" prefWidth="200.0">
          <children>
@@ -41,17 +40,17 @@
             <ImageView fx:id="image6" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </StackPane>
-      <Label layoutY="164.0" text="Type: Luxery" />
+      <Label fx:id="Item1" layoutY="164.0" text="Type: Luxury" />
       <Label layoutY="182.0" text="Size: 4 pers." />
-      <Label layoutX="200.0" layoutY="164.0" text="Type: Luxery" />
+      <Label fx:id="acTypeItem2" layoutX="200.0" layoutY="164.0" text="Type: Luxery" />
       <Label layoutX="200.0" layoutY="182.0" text="Size: 4 pers." />
-      <Label layoutX="400.0" layoutY="164.0" text="Type: Luxery" />
+      <Label fx:id="acTypeItem3" layoutX="400.0" layoutY="164.0" text="Type: Luxery" />
       <Label layoutX="400.0" layoutY="182.0" text="Size: 4 pers." />
-      <Label layoutY="354.0" text="Type: Luxery" />
+      <Label fx:id="acTypeItem4" layoutY="354.0" text="Type: Luxery" />
       <Label layoutY="372.0" text="Size: 4 pers." />
-      <Label layoutX="200.0" layoutY="354.0" text="Type: Luxery" />
+      <Label fx:id="acTypeItem5" layoutX="200.0" layoutY="354.0" text="Type: Luxery" />
       <Label layoutX="200.0" layoutY="372.0" text="Size: 4 pers." />
-      <Label layoutX="400.0" layoutY="354.0" text="Type: Luxery" />
+      <Label fx:id="acTypeItem6" layoutX="400.0" layoutY="354.0" text="Type: Luxery" />
       <Label layoutX="400.0" layoutY="372.0" text="Size: 4 pers." />
    </children>
 </AnchorPane>

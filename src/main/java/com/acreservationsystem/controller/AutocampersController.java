@@ -12,6 +12,7 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+import java.awt.*;
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -46,9 +47,18 @@ public class AutocampersController {
     @FXML
     private StackPane stackPane6;
     @FXML
-    FXMLLoader loader;
+    private Label Item1;
     @FXML
-    Scene scene;
+    private Label acTypeItem2;
+    @FXML
+    private Label acTypeItem3;
+    @FXML
+    private Label acTypeItem4;
+    @FXML
+    private Label acTypeItem5;
+    @FXML
+    private Label acTypeItem6;
+
     @FXML
     Stage stage;
 
@@ -87,6 +97,7 @@ public class AutocampersController {
                     set.getString(13)
             ));
         }
+        System.out.println(db.readPrice(1));
 
         image1.setImage(image);
         image1.setPreserveRatio(true);
@@ -100,6 +111,13 @@ public class AutocampersController {
         image5.setPreserveRatio(true);
         image6.setImage(image);
         image6.setPreserveRatio(true);
+
+        Item1.setText("test");
+        acTypeItem2.setText("test");
+        acTypeItem3.setText("test");
+        acTypeItem4.setText("test");
+        acTypeItem5.setText("test");
+        acTypeItem6.setText("test");
 
         ScaleTransition scaleTransition = new ScaleTransition();
         //scaleTransition.setNode(image1);

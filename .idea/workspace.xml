@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2030345-abde-4c8f-af1b-cfd204fca1bd" name="Changes" comment="Added DB connection using CallableStatement">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/acreservationsystem/model/AutocamperDAODBTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutoCamperInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutoCamperInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/AutocampersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/controller/ReservationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/Autocamper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/Autocamper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAODB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAODB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAORepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/AutocamperDAORepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acreservationsystem/model/Loader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/ReservationForm-View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/ReservationForm-View.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/autocamperInfo-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/autocamperInfo-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/acreservationsystem/model/AutocamperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/acreservationsystem/model/AutocamperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +20,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -51,33 +43,45 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2fUYQniFETLRWwA6iS7PgGvJdP2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ACReservationSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ACReservationSystem.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.acreservationsystem.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AutocamperDAODBTest">
     <configuration name="ACReservationSystem" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.acreservationsystem.view.HelloApplication" />
       <module name="ACReservationSystem" />
@@ -85,6 +89,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AutocamperDAODBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ACReservationSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.acreservationsystem.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.acreservationsystem.model" />
+      <option name="MAIN_CLASS_NAME" value="com.acreservationsystem.model.AutocamperDAODBTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AutocamperDAODBTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -241,7 +265,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -264,5 +300,16 @@
     <MESSAGE value="Added switch to AutocamperInfo-view" />
     <MESSAGE value="Added DB connection using CallableStatement" />
     <option name="LAST_COMMIT_MESSAGE" value="Added DB connection using CallableStatement" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/acreservationsystem/model/AutocamperDAODBTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

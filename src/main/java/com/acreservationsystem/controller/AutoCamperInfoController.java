@@ -14,9 +14,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class AutoCamperInfoController {
-
-    AutocamperDAO db = new AutocamperDAODB();
-
     @FXML
     TextField priceTF;
     @FXML

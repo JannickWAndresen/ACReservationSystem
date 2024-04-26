@@ -10,12 +10,8 @@ import java.io.IOException;
 public class Loader {
     private static Loader instance;
     private Stage stage;
-    //private Stage confirmBooking;
-    //private Stage confirmedBooking;
 
-    private Loader (){
-
-    }
+    private Loader (){}
 
     public static Loader getInstance(){
         if(instance == null){

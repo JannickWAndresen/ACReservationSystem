@@ -8,7 +8,7 @@ public interface AutocamperDAO {
     public void rent(Autocamper ac);
     public ResultSet read(int no) throws SQLException;
 
-    public List<Autocamper> readAll();
+    public ResultSet readAll() throws SQLException;
 
     public void update (int no, Autocamper ac);
 

@@ -38,8 +38,10 @@ public class AutocamperDAODB implements AutocamperDAO {
     }
 
     @Override
-    public List<Autocamper> readAll() {
-        return null;
+    public ResultSet readAll() throws SQLException {
+        PreparedStatement s = con.prepareStatement("SELECT * FROM tblAutocamper");
+        s.executeQuery();
+        return s.executeQuery();
     }
 
     @Override

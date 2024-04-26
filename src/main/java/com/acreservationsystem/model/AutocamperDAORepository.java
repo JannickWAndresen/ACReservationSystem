@@ -15,7 +15,7 @@ public class AutocamperDAORepository  implements AutocamperDAO{
     }
 
     @Override
-    public List<Autocamper> readAll() {
+    public ResultSet readAll() {
         return null;
     }
 

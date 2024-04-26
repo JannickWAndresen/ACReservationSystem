@@ -31,7 +31,6 @@ public class Loader {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(fxmlFile));
             Scene scene = new Scene(fxmlLoader.load(), 184, 109);
-            tempStage.setTitle("Hello!");
             tempStage.setScene(scene);
             tempStage.show();
         }catch(IOException e){
@@ -42,7 +41,6 @@ public class Loader {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(fxmlFile));
             Scene scene = new Scene(fxmlLoader.load(), width, height);
-            stage.setTitle("Hello!");
             stage.setScene(scene);
             stage.show();
         }catch(IOException e){

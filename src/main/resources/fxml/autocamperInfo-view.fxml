@@ -21,7 +21,7 @@
                      <font>
                         <Font size="14.0" />
                      </font></Label>
-                  <TextField editable="false" prefHeight="26.0" prefWidth="110.0">
+                  <TextField fx:id="acModelTF" editable="false" prefHeight="26.0" prefWidth="110.0">
                      <HBox.margin>
                         <Insets right="40.0" />
                      </HBox.margin>
@@ -33,7 +33,7 @@
                      <font>
                         <Font size="14.0" />
                      </font></Label>
-                  <TextField editable="false" prefHeight="26.0" prefWidth="110.0">
+                  <TextField fx:id="brandTF" editable="false" prefHeight="26.0" prefWidth="110.0">
                      <font>
                         <Font size="14.0" />
                      </font></TextField>
@@ -71,7 +71,7 @@
                      <font>
                         <Font size="14.0" />
                      </font></Label>
-                  <TextField editable="false" prefHeight="26.0" prefWidth="120.0">
+                  <TextField fx:id="autoCamperTypeTF" editable="false" prefHeight="26.0" prefWidth="120.0">
                      <HBox.margin>
                         <Insets right="40.0" />
                      </HBox.margin>
@@ -87,7 +87,7 @@
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="priceText" editable="false" prefHeight="26.0" prefWidth="120.0">
+                  <TextField fx:id="priceTF" editable="false" prefHeight="26.0" prefWidth="120.0">
                      <font>
                         <Font size="14.0" />
                      </font></TextField>
@@ -99,7 +99,7 @@
                      <font>
                         <Font size="14.0" />
                      </font></Label>
-                  <TextField editable="false" prefHeight="26.0" prefWidth="120.0">
+                  <TextField fx:id="personsTF" editable="false" prefHeight="26.0" prefWidth="120.0">
                      <HBox.margin>
                         <Insets right="40.0" />
                      </HBox.margin>
@@ -111,7 +111,7 @@
                      <font>
                         <Font size="14.0" />
                      </font></Label>
-                  <TextField editable="false" prefHeight="26.0" prefWidth="120.0">
+                  <TextField fx:id="heatTF" editable="false" prefHeight="26.0" prefWidth="120.0">
                      <font>
                         <Font size="14.0" />
                      </font></TextField>
@@ -123,7 +123,7 @@
                      <font>
                         <Font size="14.0" />
                      </font></Label>
-                  <TextField editable="false" prefHeight="26.0" prefWidth="120.0">
+                  <TextField fx:id="bedAmountTF" editable="false" prefHeight="26.0" prefWidth="120.0">
                      <HBox.margin>
                         <Insets right="40.0" />
                      </HBox.margin>
@@ -135,7 +135,7 @@
                      <font>
                         <Font size="14.0" />
                      </font></Label>
-                  <TextField editable="false" prefHeight="26.0" prefWidth="120.0">
+                  <TextField fx:id="spaceTF" editable="false" prefHeight="26.0" prefWidth="120.0">
                      <font>
                         <Font size="14.0" />
                      </font></TextField>
@@ -147,13 +147,13 @@
          <children>
             <HBox alignment="CENTER" prefHeight="106.0" prefWidth="276.0">
                <children>
-                  <VBox prefHeight="106.0" prefWidth="394.0">
+                  <VBox fx:id="kitchenEquipmentTA" prefHeight="106.0" prefWidth="394.0">
                      <children>
                         <Label prefHeight="22.0" prefWidth="124.0" text="Kitchen Equipment:" wrapText="true">
                            <font>
                               <Font size="14.0" />
                            </font></Label>
-                        <TextArea editable="false" prefHeight="58.0" prefWidth="394.0" wrapText="true">
+                        <TextArea fx:id="kitchenAreaTA" editable="false" prefHeight="58.0" prefWidth="394.0" wrapText="true">
                            <font>
                               <Font size="14.0" />
                            </font></TextArea>

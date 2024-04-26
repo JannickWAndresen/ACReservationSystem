@@ -3,45 +3,56 @@ package com.acreservationsystem.model;
 import java.util.List;
 
 public class Autocamper {
+    private int ID;
     private String name;
     private String brand;
     private String plate;
-    private int age;
+    private String age;
     private int price;
-    private boolean status;
-    private String type;
-    private String facility;
-    private float space;
-    private String heat;
-    private int bed;
-    private List<String> kitchenEquipment;
+    private int bookingStatusID;
+    private int acTypeID;
+    private int facilityID;
+    private int space;
+    private boolean heat;
+    private int bedAmount;
+    private String kitchenEquipment;
+
     public Autocamper(
+            int ID,
             String name,
             String brand,
             String plate,
-            int age,
+            String age,
             int price,
-            boolean status,
-            String type,
-            String facility,
-            float space,
-            String heat,
-            int bed,
-            List<String> kitchenEquipment) {
-
+            int bookingStatusID,
+            int acTypeID,
+            int facilityID,
+            int space,
+            boolean heat,
+            int bedAmount,
+            String kitchenEquipment) {
+        setID(ID);
         setName(name);
         setBrand(brand);
         setPlate(plate);
         setAge(age);
         setPrice(price);
-        setStatus(status);
-        setType(type);
-        setFacility(facility);
+        setBookingStatusID(bookingStatusID);
+        setAcTypeID(acTypeID);
+        setFacilityID(facilityID);
         setSpace(space);
         setHeat(heat);
-        setBed(bed);
+        setBedAmount(bedAmount);
         setKitchenEquipment(kitchenEquipment);
 
+    }
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
     }
 
     public String getName() {
@@ -68,11 +79,11 @@ public class Autocamper {
         this.plate = plate;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 
@@ -84,55 +95,59 @@ public class Autocamper {
         this.price = price;
     }
 
-    public boolean isStatus() {
-        return status;
+    public int getBookingStatusID() {
+        return bookingStatusID;
     }
 
-    public void setStatus(boolean status) {
-        this.status = status;
+    public void setBookingStatusID(int bookingStatusID) {
+        this.bookingStatusID = bookingStatusID;
     }
 
-    public String getType() {
-        return type;
+    public int getAcTypeID() {
+        return acTypeID;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setAcTypeID(int acTypeID) {
+        this.acTypeID = acTypeID;
     }
 
-    public String getFacility() {
-        return facility;
+    public int getFacilityID() {
+        return facilityID;
     }
 
-    public void setFacility(String facility) {
-        this.facility = facility;
+    public void setFacilityID(int facilityID) {
+        this.facilityID = facilityID;
     }
 
-    public float getSpace() {
+    public int getSpace() {
         return space;
     }
 
-    public void setSpace(float space) {
+    public void setSpace(int space) {
         this.space = space;
     }
 
-    public String getHeat() {
+    public boolean isHeat() {
         return heat;
     }
 
-    public void setHeat(String heat) {
+    public void setHeat(boolean heat) {
         this.heat = heat;
     }
-    public int getBed() {
-        return bed;
+
+    public int getBedAmount() {
+        return bedAmount;
     }
-    public void setBed(int bed) {
-        this.bed = bed;
+
+    public void setBedAmount(int bedAmount) {
+        this.bedAmount = bedAmount;
     }
-    public List<String> getKitchenEquipment() {
+
+    public String getKitchenEquipment() {
         return kitchenEquipment;
     }
-    public void setKitchenEquipment(List<String> kitchenEquipment) {
+
+    public void setKitchenEquipment(String kitchenEquipment) {
         this.kitchenEquipment = kitchenEquipment;
     }
 }

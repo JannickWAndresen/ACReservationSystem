@@ -41,6 +41,7 @@ public class AutocamperDAODB implements AutocamperDAO {
         CallableStatement c = con.prepareCall("{CALL GetACPrice(?)}");
         c.setInt(1, no);
         ResultSet s = c.executeQuery();
+        s.next();
         return s.getInt(1);
     }
 

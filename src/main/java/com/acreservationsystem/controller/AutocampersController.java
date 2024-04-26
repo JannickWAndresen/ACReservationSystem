@@ -112,13 +112,6 @@ public class AutocampersController {
         image6.setImage(image);
         image6.setPreserveRatio(true);
 
-        Item1.setText("test");
-        acTypeItem2.setText("test");
-        acTypeItem3.setText("test");
-        acTypeItem4.setText("test");
-        acTypeItem5.setText("test");
-        acTypeItem6.setText("test");
-
         ScaleTransition scaleTransition = new ScaleTransition();
         //scaleTransition.setNode(image1);
         scaleTransition.setDuration(Duration.millis(30));
